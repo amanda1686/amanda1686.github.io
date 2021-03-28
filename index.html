@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d53121fcf0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafilio- Amanda Rodríguez</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Amanda Rodríguez</h1>
+                <p>Desarrolladora Web</p>
+            </div>
+            <form action="">
+                <input type="text" class="busqueda" id="busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+                <a href="#">Templos</a>
+                <a href="#">Tokyo</a>
+                <a href="#">Paris</a>
+                <a href="#">Paisajes</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" 
+            data-categoria="ciudades" 
+            data-etiquetas="ciudades coches calles"
+            data-descripcion="These vagabond shoes. They are longing to stray">
+                <div class="item-contenido">
+                    <img src="img/ciudad1.png" alt="ciudad1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="personas" 
+            data-etiquetas="personas mujer"
+            data-descripcion="My one, it lingers when we're done. You'll believe God is a woman">
+                <div class="item-contenido">
+                    <img src="img/persona1.png" alt="persona1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paris" 
+            data-etiquetas="paris ciudades"
+            data-descripcion="on me dit que nos vies ne valent pas grand chose">
+                <div class="item-contenido">
+                    <img src="img/Paris1.jpg" alt="paris1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paisajes" 
+            data-etiquetas="paisajes mar"
+            data-descripcion="One breath away from Mother Oceania">
+                <div class="item-contenido">
+                    <img src="img/paisaje1.png" alt="paisaje1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animales" 
+            data-etiquetas="animales leon"
+            data-descripcion="I got the eye of the lion, a fighter">
+                <div class="item-contenido">
+                    <img src="img/animal1.png" alt="animal1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="templos" 
+            data-etiquetas="templos japon tokyo"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Templo1.jpg" alt="templo1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="naturaleza" 
+            data-etiquetas="naturaleza hojas"
+            data-descripcion="Tastes like strawberries">
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="naturaleza1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="ciudades" 
+            data-etiquetas="ciudades mar paisaje"
+            data-descripcion="These vagabond shoes. They are longing to stray">
+                <div class="item-contenido">
+                    <img src="img/ciudad2.png" alt="ciudad2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animales" 
+            data-etiquetas="animal panda"
+            data-descripcion="I'm gonna run right to, to the edge with you">
+                <div class="item-contenido">
+                    <img src="img/animal2.png" alt="animal2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="personas" 
+            data-etiquetas="personas mujer"
+            data-descripcion="My one, it lingers when we're done. You'll believe God is a woman">
+                <div class="item-contenido">
+                    <img src="img/persona2.png" alt="persona2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paris" 
+            data-etiquetas="paris ciudades naturaleza"
+            data-descripcion="on me dit que nos vies ne valent pas grand chose">
+                <div class="item-contenido">
+                    <img src="img/Paris3.jpg" alt="paris3">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paisaje" 
+            data-etiquetas="paisaje mar naturaleza"
+            data-descripcion="One breath away from Mother Oceania">
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="paisaje2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="templos" 
+            data-etiquetas="templos tokyo naturaleza"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Templo2.jpg" alt="templo2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="naturaleza" 
+            data-etiquetas="naturaleza tokyo"
+            data-descripcion="">
+                <div class="item-contenido">
+                    <img src="img/naturaleza3.jpg" alt="naturaleza2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="tokyo" 
+            data-etiquetas="tokyo ciudades"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Tokyo1.jpg" alt="tokyo1">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paris" 
+            data-etiquetas="paris ciudades"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Paris4.jpg" alt="paris4">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paisajes" 
+            data-etiquetas="paisajes tokyo"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/paisaje3.jpg" alt="paisaje3">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="naturaleza" 
+            data-etiquetas="naturaleza tokyo"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/naturaleza2.jpg" alt="naturaleza2">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="templo" 
+            data-etiquetas="templo tokyo naturaleza"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Templo3.jpg" alt="templo3">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="paisajes" 
+            data-etiquetas="paisajes tokyo"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/paisaje4.jpg" alt="paisaje4">
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="tokyo" 
+            data-etiquetas="tokyo ciudades"
+            data-descripcion="Lonely in Tokyo, neon can't light the road">
+                <div class="item-contenido">
+                    <img src="img/Tokyo2.jpg" alt="tokyo2">
+                </div>
+            </div>
+        </section>
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="cotenedor-icono">
+                    <a href="#" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="cotenedor-icono">
+                    <a href="#" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="cotenedor-icono">
+                    <a href="#" class="github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a href="">Amanda Rodríguez</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
